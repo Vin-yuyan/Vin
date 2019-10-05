@@ -9,7 +9,7 @@ public class WordCounter {
 		System.out.println("HI!You can input a string and you can import from your file!And we will give you some message that you want konw!");
 		
 		System.out.println("Please input your choice !");
-		System.out.println("1¡¢input a string \n2¡¢implort from file");
+		System.out.println("1ã€input a string \n2ã€import from file");
 		int choice=scanner.nextInt();
 		return choice;	
 	}
@@ -63,7 +63,7 @@ public class WordCounter {
 		System.out.println("**************************");
 		System.out.println("Thank you for your using!");
 	}
-	static int num[] = { 0, 0, 0, 0 ,0};// Êı×Ö¡¢×ÖÄ¸¡¢¿Õ¸ñ¡¢ÆäËû¡¢µ¥´Ê
+	static int num[] = { 0, 0, 0, 0 ,0};// æ•°å­—ã€å­—æ¯ã€ç©ºæ ¼ã€å…¶ä»–ã€å•è¯
 	
 	
 	
@@ -89,7 +89,7 @@ public class WordCounter {
 		 String s1[] = s.split(" ");
          for(int i=0;i<s1.length;i++) {
              // System.out.println(s1[i]);
-              num[4]++;//¼ÆÊı±äÁ¿
+              num[4]++;//è®¡æ•°å˜é‡
          } 
 		
 		
